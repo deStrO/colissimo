@@ -18,5 +18,14 @@ return [
     | this value is the string 
     |
     */
-    'password' =>  env('COLISSIMO_PASSWORD', null)
+    'password' =>  env('COLISSIMO_PASSWORD', null),
+    /*
+    |--------------------------------------------------------------------------
+    |% of Carbon taxe is the taxe add on price by colissimo
+    |--------------------------------------------------------------------------
+    |
+    | this value is the number 
+    |
+    */
+    'carbon_taxe' =>  env('COLISSIMO_CARBON_TAXE', 0.0275)
 ];

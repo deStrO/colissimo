@@ -288,7 +288,7 @@ class ColissimoOtherMethods
             if (isset($price[$type])) {
                 return (object) [
                     'status' => 'success',
-                    'price' => $price[$type] * 1.225,
+                    'price' => $price[$type] * (1 + 0.2 + config('colissimo.carbon_taxe')),
                     'region' => $this->region,
                     'type' => $type,
                     'zone' => $this->zone,
@@ -309,7 +309,7 @@ class ColissimoOtherMethods
         return (object) [
             'status' => 'success',
             'price' => collect($price)->map(function($item, $key){
-                return $key == 'POIDS' ? $item : $item * 1.225; 
+                return $key == 'POIDS' ? $item : $item * (1 + 0.2 + config('colissimo.carbon_taxe')); 
             }),
             'region' => $this->region,
             'type' => $type,
