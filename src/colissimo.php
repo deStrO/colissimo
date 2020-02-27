@@ -72,10 +72,6 @@ class Colissimo
         return config('colissimo.insurances');
     }
 
-    public function getSupplements(){
-        return config('colissimo.supplements');
-    }
-
     public function getInsurancePrice($price){
         $method = new ColissimoOtherMethods();
         return $method->getInsurancePrice($price);

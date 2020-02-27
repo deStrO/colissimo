@@ -39,7 +39,5 @@
                 "colissimo": "Quimeboule\\Colissimo\\Facades\\colissimo"
             }
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
