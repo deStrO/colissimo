@@ -15,28 +15,28 @@
         [
             'supplements' => 'Absence d’EDI le jour J avant minuit*',
             'definition' => 'Absence ou arrivée en J après  minuit par rapport à la prise en charge',
-            'cost' => '0.10'
+            'cost' => 0.10
         ],
         [
             'supplements' => 'Adresse non transmise',
             'definition' => 'Pas d’adresse',
-            'cost' => '0.10'
+            'cost' => 0.10
         ],
         [
             'supplements' => 'Problème CP/Commune',
             'definition' => 'Le code postal et la commune ne sont pas compatibles',
-            'cost' => '0.90'
+            'cost' => 0.90
         ],
         [
             'supplements' => 'Absence e-mail/téléphone',
             'definition' => 'E-mail et téléphone absents (présence obligatoire du mail ou du téléphone)',
-            'cost' => '0.10'
+            'cost' => 0.10
         ],
         [
             'supplements' => 'Colis non mécanisable',
             'definition' => 'Tout colis ne répondant pas à une seule des caractéristiques du colis standard défini 
             dans nos conditions générales de ventes nécessite un traitement spécifique',
-            'cost' => '6.00'
+            'cost' => 6.00
         ],
         [
             'supplements' => 'Colis non admis',
@@ -44,7 +44,7 @@
             Pour tous les modes de distribution les envois ne répondant ni aux conditions des colis mécanisables 
             ni à celles des colis non mécanisables définis dans les conditions générales ne sont pas admis dans le réseau postal. 
             Un colis est non admis notamment pour les raisons suivantes : - poids - emballage - dimensions - conditionnement',
-            'cost' => '50.00'
+            'cost' => 50.00
         ],
         [
             'supplements' => 'Coefficient d’Ajustement Pétrole (CAP)',
