@@ -31,6 +31,7 @@ class ColissimoServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../config/prices.php', 'colissimo.prices');
         $this->mergeConfigFrom(__DIR__.'/../config/zones.php', 'colissimo.zones');
         $this->mergeConfigFrom(__DIR__.'/../config/insurances.php', 'colissimo.insurances');
+        $this->mergeConfigFrom(__DIR__.'/../config/supplements.php', 'colissimo.supplements');
         // Register the service the package provides.
         $this->app->singleton('colissimo', function ($app) {
             return new Colissimo;
