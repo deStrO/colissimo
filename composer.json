@@ -1,6 +1,6 @@
 {
     "name": "quimeboule/colissimo",
-    "description": ":package_description",
+    "description": "A library for consuming the SOAP Web service of colissimo",
     "license": "MIT",
     "authors": [
         {
